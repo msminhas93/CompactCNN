@@ -70,7 +70,7 @@ def compact_cnn_classification(segmodelpath=None):
     bn14 = BatchNormalization()(class2)
 
     class3 = GlobalAveragePooling2D()(bn13)
-    bn15 = BatchNormalization()(class2)
+    bn15 = BatchNormalization()(class3)
 
     poolmerge = concatenate([bn11,bn12,bn14,bn15])
 
