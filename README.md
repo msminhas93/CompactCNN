@@ -1,11 +1,11 @@
 A Compact Convolutional Neural Network for Textured Surface Anomaly Detection
 
-Keras implementation of the CompactCNN. 
+Keras and PyTorch implementation of the CompactCNN. 
 
 Details of the paper can be found [here](https://www.semanticscholar.org/paper/A-Compact-Convolutional-Neural-Network-for-Textured-Racki-Tomazevic/17d3f90cb63fbac50a5e49b8a46e633ec1f526fd#extracted).
 
 Requirements:
-Keras,Tensorflow,Opencv,Matplotlib,Os,Numpy
+keras,tensorflow,opencv,matplotlib,os,numpy
 
 To run the code use `python main.py`
 
