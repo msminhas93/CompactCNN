@@ -11,9 +11,9 @@ To run the code use `python ./ccnn_pytorch/main.py` or `python ./ccnn_keras/main
 
 To create DAGM dataset in the form required for this repository run the following command.
 
-python DAGM_data_prep.py "dataset directory path where you want the folders to be created" "DAGM folder path" 
+`python DAGM_data_prep.py "dataset directory path where you want the folders to be created" "DAGM folder path"`
 
-For example:  python DAGM_data_prep.py "/john/doe/datasets" "john/doe/DAGM" 
+For example:  `python DAGM_data_prep.py "/john/doe/datasets" "john/doe/DAGM"`
 
 I've included the images folder in the repository as well the weights of the trained models.
 
