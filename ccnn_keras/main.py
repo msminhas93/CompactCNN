@@ -2,10 +2,10 @@ from training import train
 from model import compact_cnn_model
 from sample_output import create_output
 
-segtrainpath = './Class8/Train'
-segvalpath =  './Class8/Test'
-classtrainpath = './Class8/Classification/Train'
-classvalpath = './Class8/Classification/Test'
+segtrainpath = '../Class8/Train'
+segvalpath =  '../Class8/Test'
+classtrainpath = '../Class8/Classification/Train'
+classvalpath = '../Class8/Classification/Test'
 
 train(segtrainpath,segvalpath,classtrainpath,classvalpath)
 print('Training done')

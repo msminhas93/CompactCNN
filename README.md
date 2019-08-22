@@ -7,7 +7,13 @@ Details of the paper can be found [here](https://www.semanticscholar.org/paper/A
 Requirements:
 keras,tensorflow,opencv,matplotlib,os,numpy
 
-To run the code use `python main.py`
+To run the code use `python ./ccnn_pytorch/main.py` or `python ./ccnn_keras/main.py`
+
+To create DAGM dataset in the form required for this repository run the following command.
+
+python DAGM_data_prep.py "dataset directory path where you want the folders to be created" "DAGM folder path" 
+
+For example:  python DAGM_data_prep.py "/john/doe/datasets" "john/doe/DAGM" 
 
 I've included the images folder in the repository as well the weights of the trained models.
 
